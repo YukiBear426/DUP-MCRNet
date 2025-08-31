@@ -18,9 +18,9 @@ pip install -r requirements.txt
 ## Data Preparation
 
 All datasets used can be downloaded from [here](https://pan.baidu.com/s/1fw4uB6W8psX7roBOgbbXyA) (password: `arrr`).
-*Note: The datasets are provided by the other authors.*
+*Note: The datasets are provided by the other author.*
 
-After downloading, put them into `datasets/` folder. Your `datasets/` folder should look like this:
+After downloading, put them into `datasets/` folder. Your `datasets/` folder should be looked like this:
 
 ````
 -- datasets
@@ -40,7 +40,7 @@ After downloading, put them into `datasets/` folder. Your `datasets/` folder sho
 Before training, please download the pretrained backbone weights and place them into the `pretrained_model/` folder.  
 
 Currently supported backbones:
-- **ResNet**: [Download Link](https://pan.baidu.com/s/1JBEa06CT4hYh8hR7uuJ_3A) (password: `uxcz`)  
+- **ResNet**: [Download Link](https://pan.baidu.com/s/1JBEa06CT4hYh8hR7uuJ_3A) (password: `uxcz`) *Note: The pretrained weights are provided by the other author.*
 - **SwinTransformer**: [GitHub Link](https://github.com/microsoft/Swin-Transformer) 
 
 Make sure the weights are correctly placed before running the training script. Your `pretrained_model/` folder should look like this:
